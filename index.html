@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MMerlinDev</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+	<div class="container-lg pt-5">
+		<div class="row">
+			<div class="col-lg-0"></div>
+			<div class="col-lg-12">
+				<nav>
+				  <div class="nav nav-tabs mb-3 justify-content-center" id="nav-tab" role="tablist">
+					<button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+					<button class="nav-link" id="nav-portfolio-tab" data-bs-toggle="tab" data-bs-target="#nav-portfolio" type="button" role="tab" aria-controls="nav-portfolio" aria-selected="false" tabindex="-1">Portfolio</button>
+					<button class="nav-link" id="nav-Resume-tab" data-bs-toggle="tab" data-bs-target="#nav-Resume" type="button" role="tab" aria-controls="nav-Resume" aria-selected="false" tabindex="-1">Resume</button>
+				  </div>
+				</nav>
+				<div class="tab-content" id="nav-tabContent">
+				  <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4 pb-4">
+								<div class="row">
+									<div class="col-md-0 col-3"></div>
+									<div class="col-md-12 col-6"><img src="./assets/imgs/propic.jpg" class="img-fluid rounded mx-auto d-block" alt="propic"></div>
+									<div class="col-md-0 col-3"></div>
+								</div>
+								<div class="row pt-2">
+									<div class="col-md-0 col-3"></div>
+									<div class="col-md-12 col-6">
+										<p class="mb-2 text-center"><strong>Contacts</strong></p>
+										<div class="row">
+											<div class="col-1 col-sm-2 col-lg-3 col-xl-4"></div>
+											<div class="col"><a href="mailto:marcusmerlin@gmail.com"><img src="./assets/imgs/mail.png" class="img-fluid" alt="mail"></a></div>
+											<div class="col"><a href="https://www.linkedin.com/in/marco-merlin-3785b6136/"><img src="./assets/imgs/linkedin.png" class="img-fluid" alt="linkedin"></a></div>
+											<div class="col"><a href="https://github.com/Marvash"><img src="./assets/imgs/github.png" class="img-fluid" alt="github"></a></div>
+											<div class="col-1 col-sm-2 col-lg-3 col-xl-4"></div>
+										</div>
+									</div>
+									<div class="col-md-0 col-3"></div>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="row">
+									<div class="col">
+									<h3>Marco Merlin</h3>
+									<p class="lead">
+										XR/Game Developer
+									</p>
+									</div>
+								</div>
+								<div class="row">
+									<p>
+										Hello and welcome to my website!
+									</p>
+									<p>
+										I am a software developer based in Italy specialized in real-time graphics applications. 
+										My passion for videogames started when I was a little kid and basically never stopped. 
+										By studying computer science in high school, I eventually got curious about how games were made and immediately fell in love with the many illusions, clever tricks and math used by developers to make those virtual worlds come to life on a screen.
+										Since then I have pursued and achieved my computer science degree with the sole intent of working with games and real-time graphics applications.
+										After my graduation, part of my free time has always been dedicated to studying and implementing some of the amazing techniques employed in my favourite games. 
+										As of now, my professional experiences mainly revolve around the development of medical, academic and business related XR applications using the Unity engine.
+									</p>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				  </div>
+				  <div class="tab-pane fade" id="nav-portfolio" role="tabpanel" aria-labelledby="nav-portfolio-tab">
+					  <div class="row align-items-center mb-5">
+							<div class="col-lg-6 mb-2">
+								<div class="row">
+									<div class="col">
+									<h3>Minecraft clone</h3>
+									</div>
+								</div>
+								<div class="row">
+									<p>
+										In this project I reproduced some of the main features of Minecraft using only c++ and opengl. 
+										The goal of this project was not to remake the game but to make a functioning game prototype from scratch with no game engines or frameworks while also improving my opengl and c++ skills and knowledge. Minecraft just happened to be a good candidate as the voxel world simplifies a lot of things.
+										Working to this project allowed me to learn, study and experiment with many game dev related concepts like programming patterns in the context of games, procedural generation algorithms, game physics with fixed timestep, game engine architectures and mesh generation to name a few.
+										The main features of this prototype are multithreaded procedural terrain generation, procedural biomes, block interaction (breaking and placing), crafting, tools and three different movement modes (Normal, Fly, Fly no collisions).
+									</p>
+									<a href="https://github.com/Marvash/MCDemo/releases">Link to project</a>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div id="mccarousel" class="carousel slide">
+								  <div class="carousel-indicators">
+									<button type="button" data-bs-target="#mccarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+									<button type="button" data-bs-target="#mccarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+									<button type="button" data-bs-target="#mccarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+								  </div>
+								  <div class="carousel-inner">
+									<div class="carousel-item active">
+									  <img src="./assets/imgs/mcclone.png" class="img-fluid rounded mx-auto d-block" alt="mcclone1">
+									</div>
+									<div class="carousel-item">
+									<img src="./assets/imgs/mcclone1.png" class="img-fluid rounded mx-auto d-block" alt="mcclone2">
+									</div>
+									<div class="carousel-item">
+									<img src="./assets/imgs/mcclone2.png" class="img-fluid rounded mx-auto d-block" alt="mcclone3">
+									</div>
+								  </div>
+								  <button class="carousel-control-prev" type="button" data-bs-target="#mccarousel" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								  </button>
+								  <button class="carousel-control-next" type="button" data-bs-target="#mccarousel" data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								  </button>
+								</div>
+							</div>
+					  </div>
+					  <div class="row align-items-center mb-5">
+							<div class="col-lg-6 mb-2 order-lg-2">
+								<div class="row">
+									<div class="col">
+									<h3>Space Miner (W.I.P.)</h3>
+									</div>
+								</div>
+								<div class="row">
+									<p>
+										Space Miner is a space themed procedural 2D action game made with Unity. The objective of the game is to defeat the boss of each level. 
+										To do so, the player must acquire stronger and stronger weapons by collecting and selling minerals found in asteroids spread around the level.
+										The player always spawns near its base at the center of the level and can fly outward in any direction.
+										The further the player goes from the base the stronger are the enemies he must fight and the more rare are the minerals he can find in the asteroids.
+										This game is still a work in progress and only few of the mechanics described above are implemented.
+										The main features currently implemented are asteroid mining, mineral random drop and collection, mineral selling, procedural asteroid distribution, progressively harder enemies and multiple weapons.
+									</p>
+									<a href="https://github.com/Marvash/SpaceMiner">Link to project</a>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2 order-lg-1">
+								<div id="spaceminercarousel" class="carousel slide">
+								  <div class="carousel-indicators">
+									<button type="button" data-bs-target="#spaceminercarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+									<button type="button" data-bs-target="#spaceminercarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+									<button type="button" data-bs-target="#spaceminercarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+									<button type="button" data-bs-target="#spaceminercarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+									<button type="button" data-bs-target="#spaceminercarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+								  </div>
+								  <div class="carousel-inner">
+									<div class="carousel-item active">
+									  <img src="./assets/imgs/spaceminer.png" class="img-fluid rounded mx-auto d-block" alt="spaceminer1">
+									</div>
+									<div class="carousel-item">
+									<img src="./assets/imgs/spaceminer1.png" class="img-fluid rounded mx-auto d-block" alt="spaceminer2">
+									</div>
+									<div class="carousel-item">
+									<img src="./assets/imgs/spaceminer2.png" class="img-fluid rounded mx-auto d-block" alt="spaceminer3">
+									</div>
+									<div class="carousel-item">
+									<img src="./assets/imgs/spaceminer3.png" class="img-fluid rounded mx-auto d-block" alt="spaceminer4">
+									</div>
+									<div class="carousel-item">
+									<img src="./assets/imgs/spaceminer4.png" class="img-fluid rounded mx-auto d-block" alt="spaceminer5">
+									</div>
+								  </div>
+								  <button class="carousel-control-prev" type="button" data-bs-target="#spaceminercarousel" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								  </button>
+								  <button class="carousel-control-next" type="button" data-bs-target="#spaceminercarousel" data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								  </button>
+								</div>
+							</div>
+					  </div>
+					  <div class="row align-items-center mb-5">
+							<div class="col-lg-6 mb-2">
+								<div class="row">
+									<div class="col">
+									<h3>XR applications</h3>
+									</div>
+								</div>
+								<div class="row">
+									<p>
+										In my professional career I had the chance to develop many different XR applications in the academic, rehabilitation and business field. I developed both mixed reality and virtual reality applications in singleplayer and multiplayer settings.
+										All these applications were developed using Unity for both standalone devices and PC VR.
+									</p>
+									<p>
+										These applications were developed for a company, no links can be made available.
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-6 mb-2">
+								<div id="xrcarousel" class="carousel slide">
+								  <div class="carousel-indicators">
+									<button type="button" data-bs-target="#xrcarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+									<button type="button" data-bs-target="#xrcarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+									<button type="button" data-bs-target="#xrcarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+								  </div>
+								  <div class="carousel-inner">
+									<div class="carousel-item active">
+									  <img src="./assets/imgs/neglect.jpg" class="img-fluid rounded mx-auto d-block" alt="xr1">
+									</div>
+									<div class="carousel-item">
+									<img src="./assets/imgs/tpmr.jpg" class="img-fluid rounded mx-auto d-block" alt="xr2">
+									</div>
+									<div class="carousel-item">
+									<img src="./assets/imgs/lab.jpg" class="img-fluid rounded mx-auto d-block" alt="xr3">
+								  </div>
+								  <button class="carousel-control-prev" type="button" data-bs-target="#xrcarousel" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								  </button>
+								  <button class="carousel-control-next" type="button" data-bs-target="#xrcarousel" data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								  </button>
+								</div>
+							</div>
+					  </div>
+				  </div>
+				  </div>
+				  <div class="tab-pane fade" id="nav-Resume" role="tabpanel" aria-labelledby="nav-Resume-tab">
+					  <div class="row">
+						<div class="col-0 col-lg-3"></div>
+						  <div class="col-12 col-lg-6">
+								<p>I am currently working for a company full time but i am always available to hear about offers, especially in the game development field. Feel free to download my <a href="./assets/cv/CVMarcoMerlineng.pdf">CV</a> and contact me if you are interested in a collaboration.</p>
+						  </div>
+						<div class="col-0 col-lg-3"></div>
+					  </div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-lg-0"></div>
+		</div>
+	</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
